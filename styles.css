@@ -1,5 +1,6 @@
 
 body {
+  background-color: #EAF6F6;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -30,11 +31,12 @@ p {
 }
 
 hr {
-    border-style: none;
-   border-top-style: dotted;
-   border-color: grey;
-   border-width: 5px;
-   width: 5%;
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
 }
 
 .img-mountain {
@@ -53,7 +55,7 @@ hr {
 .middle-container {
   background-color: #DDF3F5;
   position: relative;
-    padding-bottom: 20px;
+  padding-bottom: 20px;
 
 }
 
@@ -103,10 +105,18 @@ hr {
 }
 
 .skills {
+  background-color: #DDF3F5;
+  position: relative;
   margin-bottom: 0;
 }
 
 .contact-me {
+  background-color: #DDF3F5;
   position: relative;
   padding-bottom: 10px;
+}
+
+.skill-row {
+  background-color: #DDF3F5;
+
 }
