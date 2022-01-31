@@ -1,5 +1,6 @@
 
 body {
+  background-color: #EAF6F6;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -7,7 +8,7 @@ body {
       }
 
 h1 {
-  margin: 0;
+  margin: 10 0 0 0;
   font-family: 'Caveat',sans-serif;
   font-size: 50px;
 
@@ -16,7 +17,8 @@ h1 {
 h2 {
   font-family: 'Caveat', sans-serif;
   font-size: 50px;
-  margin-bottom: 0;
+  margin: 0;
+
     }
 
 h3 {
@@ -28,6 +30,17 @@ p {
   font-size: 20px;
 }
 
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 0;
+  position: relative;
+  left: 640px;
+}
+
 .img-mountain {
   height: 300px;
   width: 500px;
@@ -35,7 +48,7 @@ p {
 }
 
 .top-container {
-  background-color: #DDF3F5;
+  background-color: #EAF6F6;
   position: relative;
   padding: 80px;
   padding-bottom: 0;
@@ -44,6 +57,7 @@ p {
 .middle-container {
   background-color: #DDF3F5;
   position: relative;
+  padding-bottom: 20px;
 
 }
 
@@ -59,7 +73,6 @@ p {
   left: 400px;
   bottom: 450px;
 
-
 }
 
 .top-cloud {
@@ -70,10 +83,17 @@ p {
 }
  .icon-skills {
    position: relative;
-   height:200px;
-   width: 200px;
+   height:100px;
+   width:100px;
+   margin-top: 10px;
 
 
+ }
+
+ .icon-languages {
+   position: relative;
+   height:100px;
+   width: 100px;
  }
 
 .table-skills {
@@ -81,23 +101,29 @@ p {
   position: relative;
   text-align: center;
   padding-left: 400px;
+
 }
 
 .table-languages {
   position: relative;
   padding-left: 430px;
 }
-.icon-languages {
-  position: relative;
-  height:200px;
-  width: 200px;
-}
+
 
 .skills {
-  margin-bottom: 0;
+  background-color: #DDF3F5;
+  position: relative;
+  margin: 0;
 }
 
 .contact-me {
+  background-color: #DDF3F5;
   position: relative;
   padding-bottom: 10px;
+}
+
+.languages {
+  background-color: #DDF3F5;
+  margin: 0;
+
 }
