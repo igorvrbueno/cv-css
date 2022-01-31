@@ -8,7 +8,7 @@ body {
       }
 
 h1 {
-  margin: 0;
+  margin: 10 0 0 0;
   font-family: 'Caveat',sans-serif;
   font-size: 50px;
 
@@ -31,12 +31,14 @@ p {
 }
 
 hr {
-
   border-style: none;
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
   width: 5%;
+  margin: 0;
+  position: relative;
+  left: 640px;
 }
 
 .img-mountain {
@@ -81,10 +83,17 @@ hr {
 }
  .icon-skills {
    position: relative;
-   height:200px;
-   width: 200px;
+   height:100px;
+   width:100px;
+   margin-top: 10px;
 
 
+ }
+
+ .icon-languages {
+   position: relative;
+   height:100px;
+   width: 100px;
  }
 
 .table-skills {
@@ -92,22 +101,19 @@ hr {
   position: relative;
   text-align: center;
   padding-left: 400px;
+
 }
 
 .table-languages {
   position: relative;
   padding-left: 430px;
 }
-.icon-languages {
-  position: relative;
-  height:200px;
-  width: 200px;
-}
+
 
 .skills {
   background-color: #DDF3F5;
   position: relative;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .contact-me {
@@ -116,7 +122,8 @@ hr {
   padding-bottom: 10px;
 }
 
-.skill-row {
+.languages {
   background-color: #DDF3F5;
+  margin: 0;
 
 }
