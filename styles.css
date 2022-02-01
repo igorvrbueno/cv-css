@@ -20,6 +20,7 @@ h2 {
   font-size: 4.125rem;
   margin: 0;
   color: #66BFBF;
+  width: normal;
     }
 
 h3 {
@@ -30,6 +31,7 @@ h3 {
 p {
   font-family:'Shadows Into Light';
   font-size: 2.125rem;
+  width: normal;
 }
 
 hr {
@@ -132,4 +134,21 @@ hr {
 
 .footer-link {
   color: #11999E;
+}
+
+.footer-register {
+  font-size: 100%;
+  margin-top: 50px
+}
+
+/*Styles para página contato */
+
+
+.link-index {
+  margin-bottom: 100px;
+}
+
+.bottom-container-contact {
+  margin-top: 10px;
+
 }
