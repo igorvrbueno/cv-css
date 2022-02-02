@@ -43,6 +43,7 @@ hr {
 
 }
 
+
 .top-container {
   background-color: #c8def0;
   position: relative;
@@ -52,13 +53,16 @@ hr {
 }
 
 .middle-container {
-  background-color: #FFF8F3;;
+  width: 750px;
+  height: 200px;
+  background-color: #FFF8F3;
   padding-bottom: 20px;
+  margin: auto;
 }
 
 .bottom-container {
-  background-color: #2980b9;
-    padding-top: 40px;
+  background-color: #3699d6;
+  padding-top: 40px;
 
 
 }
@@ -85,6 +89,20 @@ hr {
   margin-left: 200px;
   font-size: 2.125rem;
 }
+
+.profile-igor {
+  margin: 10px;
+}
+
+
+.description {
+  font-size: 150%;
+  width: 70%;
+  text-align: justify;
+  float: right;
+  margin-top: 50px;
+
+  }
 
 .skills {
   background-color: #FFF8F3;
@@ -173,9 +191,6 @@ hr {
   background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
-}
-.description {
-  font-size: 150%;
 }
 
 .icon-email {
